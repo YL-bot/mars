@@ -40,7 +40,7 @@ def img_mars():
 
 @app.route('/')
 @app.route('/choice/<planet_name>')
-def choise(planet_name):
+def choice(planet_name):
     return f"""<!doctype html>
                 <html lang="en">
                   <head>
